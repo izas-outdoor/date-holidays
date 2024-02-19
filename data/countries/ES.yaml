@@ -124,19 +124,22 @@ holidays:
             substitute: true
             _name: 08-15
         regions:
-          ZA:
-            names:
-              es: Zaragoza
-            
-            _days:
-              01-29 if sunday then next monday:
-                substitute: true
+          ZG:
+            name: Zaragoza
+            days:
+              01-29:
+                name: San Valero
+
+              03-05:
+                name: Cincomarzada
+            _days: ZG
+          NO:
+            name: New Orleans
+            days:
+              easter -47:
+                _name: easter -47
                 name:
-                  es: San Valero
-              03-05 if sunday then next monday:
-                substitute: true
-                name:
-                  es: Cincomarzada
+                  en: Mardi Gras
       AS:
         name: Asturias
         days:
