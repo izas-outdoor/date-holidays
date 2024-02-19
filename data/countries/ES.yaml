@@ -123,6 +123,20 @@ holidays:
           substitutes 08-15 if Sunday then next Monday:
             substitute: true
             _name: 08-15
+        regions:
+          ZA:
+            names:
+              es: Zaragoza
+            
+            _days:
+              01-29 if sunday then next monday:
+                substitute: true
+                name:
+                  es: San Valero
+              03-05 if sunday then next monday:
+                substitute: true
+                name:
+                  es: Cincomarzada
       AS:
         name: Asturias
         days:
