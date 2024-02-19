@@ -107,7 +107,7 @@ holidays:
             _name: 08-15
           easter -3:
             _name: easter -3
-            AR:
+      AR:
         name: Aragón
         days:
           04-23:
