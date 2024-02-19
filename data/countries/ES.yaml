@@ -124,7 +124,7 @@ holidays:
             substitute: true
             _name: 08-15
         regions:
-          ZG:
+          ZA:
             name: Zaragoza
             days:
               01-29:
@@ -132,7 +132,7 @@ holidays:
 
               03-05:
                 name: Cincomarzada
-            _days: AR
+
           NO:
             name: New Orleans
             days:
