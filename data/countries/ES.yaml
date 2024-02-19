@@ -107,12 +107,13 @@ holidays:
             _name: 08-15
           easter -3:
             _name: easter -3
-      AR:
+            AR:
         name: Aragón
         days:
           04-23:
             name:
               es: Día de Aragón
+              type: Regional
           substitutes 04-23 if Sunday then next Monday:
             substitute: true
             name:
@@ -129,6 +130,7 @@ holidays:
             days:
               01-29:
                 name: San Valero
+                type: Local
               03-05:
                 name: Cincomarzada
           NO:
