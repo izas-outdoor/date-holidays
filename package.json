@@ -219,7 +219,7 @@
     "reporter": "dot"
   },
   "dependencies": {
-    "date-holidays-parser": "^3.4.4",
+    "date-holidays-parser": "github:izas-outdoor/date-holidays-parser#master",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
     "prepin": "^1.0.3"
